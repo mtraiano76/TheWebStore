@@ -6,17 +6,16 @@ body {
   background-attachment: fixed;
   /*queda el fondo estatico*/
   background-size: cover;
-
 }
 
 /*NAV*/
 
 h1 {
   font-size: 45px;
-    font-family: 'Tilt Warp', cursive;
-    position: fixed;
-    z-index: 101;
-    top: -20px;
+  font-family: 'Tilt Warp', cursive;
+  position: fixed;
+  z-index: 101;
+  top: -20px;
 }
 
 nav {
@@ -42,7 +41,6 @@ ul.nav-menu {
   display: inline-flex;
   list-style: none;
   margin-top: 2%;
-
 }
 
 a:link {
@@ -55,18 +53,19 @@ li {
 
 a.nav-enlace {
   color: black;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 25px;
+  font-weight: bold;
 }
 
-.buscar{
+.buscar {
   position: absolute;
   padding: 5px;
   margin-top: 5%;
   margin-left: 2%;
 }
 
-.buscar input{
+.buscar input {
   width: 0px;
   height: 40px;
   padding: 0 20px;
@@ -78,25 +77,30 @@ a.nav-enlace {
   transition: all 0.6s ease;
 }
 
-.btn{
+.btn {
   position: absolute;
   top: 0;
   right: 0;
-  background: #440080;
+  background: red;
   width: 55px;
   height: 55px;
   line-height: 55px;
   text-align: center;
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   border-radius: 50px;
   cursor: pointer;
 }
 
-.buscar:hover input{
+.buscar:hover input {
   width: 240px;
 }
 
-.buscar input:focus{
+.buscar input:focus {
   width: 240px;
+}
+
+H2{
+  color: red;
+  text-align: center;
 }
