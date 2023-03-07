@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('novedades', { title: 'The Rock Store' });
+  res.render('novedades', { title: 'Pretorianos WebStore' });
 });
 
 module.exports = router;
