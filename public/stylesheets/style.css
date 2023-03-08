@@ -1,6 +1,3 @@
-
-
-
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -9,7 +6,7 @@ body {
   background-attachment: fixed;
   /*queda el fondo estatico*/
   background-size: cover;
-  
+
 }
 
 /*NAV*/
@@ -35,7 +32,8 @@ nav {
   background-color: white;
 }
 
-.nav-menu li a.active,.nav-menu li a:hover {
+.nav-menu li a.active,
+.nav-menu li a:hover {
   color: slategrey;
   transition: .3s;
 }
@@ -103,80 +101,152 @@ a.nav-enlace {
   width: 240px;
 }
 
-H2{
+H2 {
   color: red;
   text-align: center;
 }
 
 
-
-/*CONTACTO*/
-
-
-form.formulario {
-  width: 600px;
-  height: 500px;
-  background-color:#2e6796;
-  padding: 30px;
-  margin: auto;
-  margin-top: 50px;
-  border-radius: 4px;
-  font-family: 'Oswald', sans-serif;
+/*PIE DE PAGINA*/
+footer {
   color: white;
-  box-shadow: 7px 13px 37px #000;
   display: flex;
   flex-direction: column;
-  
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.432);
+  position: fixed;
+  /*hacemos que el footer quede siempre abajo*/
+  left: 0px;
+  bottom: -40px;
+  width: 100%;
+  height: 175px;
 
 }
 
-form.formulario h4 {
-  font-size: 22px;
-  margin-bottom: 20px;
-  font-family: 'Oswald', sans-serif;
-}
-
-.controls {
-  width: 97.5%;
-  background: rgb(150, 192, 235);
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  border: 1px solid rgb(0, 77, 153);
-  font-family: 'Oswald', sans-serif;
+footer .principal {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1900px;
   font-size: 18px;
-  color: white;
-}
-
-form.formulario p {
-  height: 40px;
   text-align: center;
-  font-size: 18px;
-  line-height: 40px;
-}
-
-input {
-  width: 101%;
-  background: rgb(150, 192, 235);
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  border: 1px solid rgb(0, 77, 153);
   font-family: 'Oswald', sans-serif;
-  font-size: 18px;
-  color: rgb(23, 48, 129);
+  color: black;
+
 }
 
-form.formulario a {
+
+footer .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: c;
+  align-items: center;
+}
+
+footer .principal div {
+  margin: 10px;
+  padding: 5px;
+  max-width: 400px;
+}
+
+footer .principal .text img {
+  width: 250px;
+}
+
+footer .social-media-menu ul {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-media-menu ul li {
+  font-size: 50px;
+  padding: 15px;
+  list-style: none;
+  /*sacamos las viñetas de la lista*/
+}
+
+
+footer .links h3 {
+  text-align: center;
+}
+
+footer .links ul {
+  padding: 0px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .links ul li {
+  font-size: 1.1em;
+  padding: 15px;
+  list-style: none;
+  /*sacamos las viñetas de la lista*/
+}
+
+footer .links ul li a :hover {
+  background-color: #1d1d1d;
+  cursor: pointer;
+}
+
+footer ul li a {
   color: white;
   text-decoration: none;
 }
 
-form.formulario textarea {
-  width: 100%;
-  height: 150px;
+.fa-instagram:hover {
+  color: red;
 }
 
-#text {
+.fa-twitter:hover {
+  color: red;
+}
+
+.contact {
+  position: fixed;
+  bottom: -2%;
+  right: 5px;
+  z-index: 10;
+  display: flex;
+}
+
+.contact .fixed-mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.fa-envelope:hover {
+  color: red;
+}
+
+.contact .fixed-wp {
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 100%;
+  margin: 10px;
   text-align: center;
+}
+
+.fa-whatsapp:hover {
+  color: red;
+}
+
+.contact a i {
+  font-size: 50px;
+  color: white;
 }
