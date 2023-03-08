@@ -1,0 +1,60 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-image: url("../images/index.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*queda el fondo estatico*/
+    background-size: cover;
+}
+
+
+.banner-text {
+    padding: 0 30px;
+    margin-top: 150px;
+    text-align: center;
+    color: #fff;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    font-weight: 2000;
+    margin-bottom: 30px;
+}
+
+.banner-text span {
+    color: red;
+}
+
+.banner-text h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button1 {
+    margin-right: 40px;
+    padding: 10px 30px;
+    background-color: red;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.button1:hover {
+    background-color: #fff;
+    color: red;
+    transition: .5s;
+}
+
+.button2 {
+    margin-right: 40px;
+    padding: 10px 30px;
+    background-color: red;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.button2:hover {
+    background-color: #fff;
+    color: red;
+    transition: .5s;
+}
