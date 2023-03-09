@@ -1,6 +1,6 @@
 div.servicios{
     margin-top: 5%;
-    background-color: rgba(112, 128, 144, 0.39);
+    background-color: #0adbb87c;
     width: 100%;
     height: 5000px;
 }
@@ -15,33 +15,49 @@ div.contenedor{
 }
 
 div.box1{
-    background-color: #0adbb8;
-    width: 250px;
+   
+    width: 45%;
     height: 250px;
     margin-top: 1%;
+    background-image: url("../images/Guit1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
 div.box2{
-    background-color: #0adbb8;
-    width: 250px;
+
+    width: 45%;
     height: 250px;
     margin-top: 1%;
+    background-image: url("../images/Guit2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
 
 }
 
 div.box3{
+    width: 45%;
+    height: 250px;
+    margin-top: 1%;
+    background-image: url("../images/Guggan1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.box4{
     background-color: #0adbb8;
-    width: 250px;
+    width: 45%;
     height: 250px;
     margin-top: 1%;
 
 }
 
-div.box4{
-    background-color: #0adbb8;
-    width: 250px;
-    height: 250px;
-    margin-top: 1%;
-
+p{
+    font-family: 'Oswald', sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }
