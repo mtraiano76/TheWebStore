@@ -17,6 +17,7 @@ h1 {
   position: fixed;
   z-index: 101;
   top: -20px;
+  color: #348073;
 }
 
 nav {
@@ -53,7 +54,7 @@ li {
 }
 
 a.nav-enlace {
-  color: black;
+  color: #348073;
   font-family: 'Oswald', sans-serif;
   font-size: 25px;
   font-weight: bold;
@@ -135,7 +136,7 @@ footer .principal {
   font-size: 18px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  color: black;
+  color: #348073;
 
 }
 
@@ -189,16 +190,16 @@ footer .links ul li a :hover {
 }
 
 footer ul li a {
-  color: white;
+  color: #348073;
   text-decoration: none;
 }
 
 .fa-instagram:hover {
-  color: red;
+  color: slategrey;
 }
 
 .fa-twitter:hover {
-  color: red;
+  color: slategrey;
 }
 
 .contact {
@@ -219,7 +220,7 @@ footer ul li a {
 }
 
 .fa-envelope:hover {
-  color: red;
+  color: slategrey;
 }
 
 .contact .fixed-wp {
@@ -232,10 +233,10 @@ footer ul li a {
 }
 
 .fa-whatsapp:hover {
-  color: red;
+  color: slategrey;
 }
 
 .contact a i {
   font-size: 50px;
-  color: white;
+  color: #348073;
 }
